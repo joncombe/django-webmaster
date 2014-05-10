@@ -15,8 +15,8 @@ Proper docs are to follow, but in short:
  - Add 'webmaster' to your INSTALLED_APPS in your settings.py
  - Login in to the admin site (if you have a lot of domains, using [Grappelli][1] is highly recommended)
  - Add one or more entry to each of "DNS Provider", "Domain Registrar" and "Hosting Provider".
- - Add your first "Server" (details of a VPS for example) and "Domain Name" (e.g. example.com)
- - Finally, add your first "Subdomains" (e.g. www.example.com, static.example.com)
+ - Add your first "Server" (details of a VPS for example) and "Domain Name" (e.g. `example.com`)
+ - Finally, add your first "Subdomains" (e.g. `www.example.com`, `static.example.com`)
 
 Once you'd added a few  usefulness of the project comes by using filtering and sorting in the "Domain Names" and "Subdomains" sections.
 
