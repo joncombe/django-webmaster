@@ -12,7 +12,9 @@ Documentation
 
 Proper docs are to follow, but in short:
 
+ - pip install django-webmaster
  - Add 'webmaster' to your INSTALLED_APPS in your settings.py
+ - python manage.py syncdb (or python manage.py migrate on Django 1.7+)
  - Login in to the admin site (if you have a lot of domains, using [Grappelli][1] is highly recommended)
  - Add one or more entry to each of "DNS Provider", "Domain Registrar" and "Hosting Provider".
  - Add your first "Server" (details of a VPS for example) and "Domain Name" (e.g. `example.com`)
