@@ -23,6 +23,7 @@ admin.site.register(HostingProvider, HostingProviderAdmin)
 
 class ServerAdmin(admin.ModelAdmin):
     list_display = ('name', 'host_link', 'ip_link', 'comment')
+    list_filter = ('host',)
 admin.site.register(Server, ServerAdmin)
 
 class SubdomainAdmin(admin.ModelAdmin):

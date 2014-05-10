@@ -108,7 +108,7 @@ class Server(models.Model):
         if len(self.ip.strip()) == 0:
             return '%s (%s)' % (self.name, self.host)
         else:
-            return '%s / %s (%s)' % (self.name, self.ip, self.host)
+            return '%s (%s - %s)' % (self.name, self.host, self.ip)
 
     def host_link(self):
         if self.host is None:
